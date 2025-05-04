@@ -13,7 +13,7 @@ import {
 import { useQuery } from "@tanstack/react-query";
 import { callapi } from "../Utils/PostData";
 import { Link } from "react-router";
-import { usePaginationParams } from "../hooks/UsePaginationParams";
+import { usePaginationParams } from "../hooks/usePaginationParams";
 function Posts() {
   const { page, setPage, limit, setLimit } = usePaginationParams();
   const { data, isError, isLoading } = useQuery({
