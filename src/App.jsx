@@ -22,7 +22,7 @@ function App() {
     },
   ]);
   return (
-    <MantineProvider withgobaleStyles withNormalSize defaultColorScheme="light">
+    <MantineProvider withgobaleStyles withNormalSize defaultColorScheme="dark">
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router}>
           <Posts />
