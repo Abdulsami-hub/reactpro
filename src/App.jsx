@@ -3,7 +3,7 @@ import Posts from "./Views/Posts";
 import "@mantine/core/styles.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Create from "./Views/Create.data";
+import Create from "./Views/Create";
 import PostDetails from "./Views/Details.Post";
 const queryClient = new QueryClient();
 function App() {
